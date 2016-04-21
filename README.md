@@ -23,5 +23,7 @@ This is a bare-bones chat app.
     meteor
     ```
 
+4. Open the app in your browser: [http://localhost:3000](http://localhost:3000/)
+
 That's it!
 
