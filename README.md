@@ -23,7 +23,7 @@ This is a bare-bones chat app.
     meteor
     ```
 
-4. Open the app in your browser: [http://localhost:3000](http://localhost:3000/)
+4. Open the app in two different browser tabs: [http://localhost:3000](http://localhost:3000/). When you type in one tab, the messages will instantly show up in the other tab without refreshing the page. Cool!
 
 That's it!
 
