@@ -1,0 +1,27 @@
+<head>
+  <title>Meteor Chat Application.</title>
+</head>
+
+<body>  
+  <h1>Chatapp</h1>
+  {{> welcome }}
+  {{> loginButtons}}
+  {{> input }}
+  {{> messages }}
+</body>
+
+<template name="welcome">
+  <p>
+    Let's chat.
+  </p>
+</template>
+
+<template name="messages">
+  {{#each messages}}
+    <strong>{{username}}</strong> ({{createdAt}}): {{message}} <br>
+  {{/each}}
+</template>
+
+<template name="input">
+  <p>Message: <input type="text" id="message"></p>
+</template>
